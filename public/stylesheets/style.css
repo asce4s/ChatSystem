@@ -262,7 +262,7 @@ a {
     margin-right: 20px;
 
 }
-#load1 {
+#load1 ,#load2{
     color: #666;
     padding-top: 5px;
     display: none;
