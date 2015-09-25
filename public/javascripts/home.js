@@ -96,7 +96,7 @@ $(document).ready(function () {
                 if (from == data.from)
                     $('#chatWindow').append('<div class="rght triangle-left" >' + data.msg + '<span class="luser">you</span></div>')
                 if (from == data.to)
-                    $('#chatWindow').append('<div class="lft triangle-right">' + data.msg + '<span class="ruser">' + data.to + '</span></div>')
+                    $('#chatWindow').append('<div class="lft triangle-right">' + data.msg + '<span class="ruser">' + data.from + '</span></div>')
 
 
             })
